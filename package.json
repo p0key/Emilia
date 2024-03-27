@@ -68,11 +68,8 @@
     "build": "craco --max_old_space_size=4096 build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "lint": "eslint --ext .js,jsx,ts,tsx,json ./src",
-    "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx,json}'",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc.js",
-    "predeploy": "npm run build && cp ./build/index.html ./build/404.html",
-    "predeploy:alt": "npm run build && cp ./build/index.html ./build/404.html",
+    "predeploy": "npm run build",
     "deploy": "scp -P 222 -r ./build/* flux@167.114.9.13:/var/www/emilia",
     "build:css": "webpack --config webpack.config.cjs --mode=production",
     "watch:css": "webpack --config webpack.config.cjs --watch"

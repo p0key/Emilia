@@ -60,8 +60,8 @@ const EarlyBirdCard = () => {
       <Card.Footer className="border-0 py-0 px-5 z-1">
         <p className="text-body-tertiary fw-semibold">
           Follow{' '}
-          <a href="https://themewagon.com/" target="_blank" rel="noreferrer">
-            ThemeWagon{' '}
+          <a href="https://vrobotics.cl/" target="_blank" rel="noreferrer">
+            V-ROBOTICS{' '}
           </a>
           at <br className="d-none d-xxl-block" />
           Bootstrap Marketplace for updates.

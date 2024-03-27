@@ -56,7 +56,7 @@ const Footer = () => {
         <div className="d-sm-flex flex-between-center text-center">
           <p className="text-body-tertiary mb-0">Copyright (c) V-ROBOTICS</p>
           <p className="text-body-tertiary mb-0">
-            Hecho por {' '}
+            Hecho por
             <Link to="https://vrobotics.cl">V-ROBOTICS</Link>
           </p>
         </div>
