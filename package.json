@@ -70,7 +70,7 @@
     "eject": "react-scripts eject",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc.js",
     "predeploy": "npm run build",
-    "deploy": "scp -P 222 -r ./build/* flux@167.114.9.13:/var/www/emilia",
+    "deploy": "scp -P 2022 -r ./build/* flux@167.114.9.13:/var/www/emilia",
     "build:css": "webpack --config webpack.config.cjs --mode=production",
     "watch:css": "webpack --config webpack.config.cjs --watch"
   },
